@@ -51,23 +51,4 @@ export default class App extends Component {
       </>
     );
   }
-} /* {
-    return (
-      <>
-        <Section title={this.props.title}>
-          <FeedbackOptions onLeaveFeedback={this.onLeaveFeedback} />
-
-          <span> Good: {this.state.good}</span>
-          <span> Neutral: {this.state.neutral}</span>
-          <span> Bad: {this.state.bad}</span>
-          {this.countTotalFeedback() > 0 && (
-            <p>You have {this.countTotalFeedback()} unread messages.</p>
-          )}
-          {this.countPositiveFeedbackPercentage() > 0 && (
-            <p>Positive feedback: {this.countPositiveFeedbackPercentage()}</p>
-          )}
-        </Section>
-      </>
-    );
-  }
-} */
+}
